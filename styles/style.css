@@ -1,0 +1,62 @@
+#navbar{
+
+    display: flex;
+    margin: auto;
+  background-color: aqua;
+  
+  
+}
+#navbar>div{
+    /* margin-left: 40px; */
+  
+    /* padding: 15px; */
+    font-size: 20px;
+    /* color: brown; */
+    padding: 10px;
+    color: brown;
+    justify-content: end;
+}
+
+#items{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+#box{
+
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    border: 1px solid red;
+}
+
+img{
+
+    height: 80%;
+    width: 100%;
+}
+p{
+    margin-top: -15px;
+
+}
+
+#add{
+   /* margin-right: 80%;
+   margin-top: -50px; */
+
+   margin-left: 10px;
+   margin-top: -40px;
+   display: block;
+}
+#item_count
+{
+    text-align: right;
+    margin-top: 20px;
+    font-size: large;
+    /* background-color: teal;
+    width: 150px; */
+}
